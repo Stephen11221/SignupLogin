@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1B1B"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        android:textSize="69dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:minHeight="12dp"
+        android:text="Sign up with the following Options  "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="189dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="133dp"
+            android:layout_height="189dp"
+            android:layout_weight="1"
+            android:background="@drawable/download"
+            android:contentDescription="@string/app_name" />
+
+        <ImageButton
+            android:layout_width="133dp"
+            android:layout_height="189dp"
+            android:layout_weight="1"
+            android:background="@drawable/rrrrr"
+            android:contentDescription="@string/app_name" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/ki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email "
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/creat"
+        android:layout_width="411dp"
+        android:layout_height="65dp"
+        android:minHeight="48dp"
+        android:text="Creats Account"
+        android:textColor="#E4E2EF"
+        tools:ignore="TextContrastCheck" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="48dp"
+        android:height="16dp"
+        android:text="Already have an Account? Log in "
+        android:textColor="@color/white"/>
+
+</LinearLayout>
+
+
+
+
